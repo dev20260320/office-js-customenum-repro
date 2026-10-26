@@ -1,0 +1,38 @@
+{
+	"functions": [
+		{
+			"id": "PLAIN",
+			"name": "PLAIN",
+			"description": "Returns its input. No custom enum.",
+			"parameters": [
+				{
+					"name": "value",
+					"description": "Any value",
+					"type": "any",
+					"dimensionality": "scalar"
+				}
+			],
+			"result": {
+				"type": "any",
+				"dimensionality": "scalar"
+			}
+		},
+		{
+			"id": "WITHENUM",
+			"name": "WITHENUM",
+			"description": "Same function as in functions.json, but without the custom enum.",
+			"parameters": [
+				{
+					"name": "style",
+					"description": "Style (0=Caption, 1=Name)",
+					"type": "number",
+					"dimensionality": "scalar"
+				}
+			],
+			"result": {
+				"type": "any",
+				"dimensionality": "scalar"
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "customenum-repro",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Minimal repro: Excel custom functions with a custom enum fail to install in a second open workbook.",
+	"scripts": {
+		"start": "http-server -S -C localhost.pem -K localhost-key.pem -p 3100 -c-1"
+	},
+	"devDependencies": {
+		"http-server": "^14.1.1"
+	}
+}
